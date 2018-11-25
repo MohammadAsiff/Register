@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Registration page"
+        android:layout_marginLeft="5dp"
+        android:textSize="25dp"
+        android:id="@+id/t1"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="First Name"
+                    android:textSize="20dp"
+                    android:layout_marginTop="30dp"
+                    android:paddingLeft="5dp"
+                    android:id="@+id/tv3"
+                    />
+                <EditText
+                    android:layout_column="2"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Last Name"
+                    android:textSize="20dp"
+                    android:layout_marginTop="30dp"
+                    android:paddingLeft="5dp"
+                    android:id="@+id/tv4"
+                    />
+                <EditText
+                    android:layout_column="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adhar Number"
+                    android:textSize="20dp"
+                    android:layout_marginTop="30dp"
+                    android:paddingLeft="5dp"
+                    android:id="@+id/tv5"
+                    />
+                <EditText
+                    android:layout_column="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Number"
+                    android:textSize="20dp"
+                    android:layout_marginTop="30dp"
+                    android:paddingLeft="5dp"
+                    android:id="@+id/tv6"
+                    />
+                <EditText
+                    android:layout_column="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:textSize="20dp"
+                    android:layout_marginTop="30dp"
+                    android:paddingLeft="5dp"
+                    android:id="@+id/tv2"
+                    />
+                <EditText
+                    android:layout_column="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SSC %"
+                    android:textSize="20dp"
+                    android:layout_marginTop="30dp"
+                    android:paddingLeft="5dp"
+                    android:id="@+id/tv7"
+                    />
+                <EditText
+                    android:layout_column="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="INTERMEDIATE %"
+                    android:textSize="20dp"
+                    android:layout_marginTop="30dp"
+                    android:paddingLeft="5dp"
+                    android:id="@+id/tv8"
+                    />
+                <EditText
+                    android:layout_column="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DEGREE %"
+                    android:textSize="20dp"
+                    android:layout_marginTop="30dp"
+                    android:paddingLeft="5dp"
+                    android:id="@+id/tv9"
+                    />
+                <EditText
+                    android:layout_column="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </TableRow>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="SIGN UP"
+                android:textSize="20dp"
+                android:id="@+id/b1"
+                />
+
+        </TableLayout>
+    </ScrollView>
+
+
+</LinearLayout>
